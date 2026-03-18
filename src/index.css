@@ -1,13 +1,76 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar{
+position:fixed;
+top:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:#020617;
+z-index:100;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.links{
+display:flex;
+gap:30px;
+}
+
+.links a{
+text-decoration:none;
+color:white;
+transition:.3s;
+}
+
+.links a:hover{
+color:#38bdf8;
+}
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+min-height:100vh;
+}
+
+.hero-left{
+max-width:600px;
+}
+
+.hero-title{
+font-size:60px;
+color:#38bdf8;
+}
+
+.hero-role{
+font-size:32px;
+margin:20px 0;
+}
+
+.hero-right img{
+width:350px;
+border-radius:20px;
+}
+
+.btn{
+margin-top:20px;
+padding:12px 30px;
+background:#38bdf8;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+.project-card{
+background:#0f172a;
+border-radius:14px;
+overflow:hidden;
+cursor:pointer;
+}
+
+.project-card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.project-body{
+padding:20px;
 }
