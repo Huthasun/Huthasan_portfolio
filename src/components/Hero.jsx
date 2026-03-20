@@ -1,5 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
-import profile from "../assets/portfolio_image.jpeg";
+import profile from "../assets/New.png";
 import ParticlesBackground from "./ParticlesBackground";
 
 

@@ -30,25 +30,24 @@ About Me
 </motion.h2>
 
 <motion.p variants={{hidden:{opacity:0,y:20},visible:{opacity:1,y:0}}}>
-I’m a Full Stack Developer with over 3 years of experience building real-world web and mobile applications. 
-I work comfortably across both frontend and backend, mainly using React, Node.js, and MongoDB.
+I started my journey as a developer with a strong interest in building user-friendly and meaningful applications. 
+Over time, I’ve grown into a Full Stack Developer who enjoys working on both frontend and backend systems.
 </motion.p>
 
 <motion.p variants={{hidden:{opacity:0,y:20},visible:{opacity:1,y:0}}}>
-In my current role, I’ve worked on multiple projects in healthcare, hospitality, and IoT domains. 
-From developing hotel management systems to building real-time dashboards and medical applications, 
-I’ve been involved in creating complete end-to-end solutions.
+What excites me most is turning real-world problems into working solutions. 
+I’ve built systems like hotel management platforms, real-time dashboards, and IoT-based applications that handle live data efficiently.
 </motion.p>
 
 <motion.p variants={{hidden:{opacity:0,y:20},visible:{opacity:1,y:0}}}>
-I enjoy working on real-time features using technologies like WebSocket and MQTT, and I focus on writing clean, 
-maintainable code with good performance and user experience.
+I focus on writing clean, scalable code and creating smooth user experiences. 
+I also enjoy working with real-time technologies like WebSockets and MQTT, which help bring applications to life.
 </motion.p>
 
 <motion.p variants={{hidden:{opacity:0,y:20},visible:{opacity:1,y:0}}}>
-I’m always looking to improve my skills, learn new technologies, and build applications that solve real-world problems.
+Beyond coding, I’m someone who continuously learns, experiments, and improves. 
+I believe in building applications that are not just functional, but also reliable and impactful.
 </motion.p>
-
 </motion.div>
 
 

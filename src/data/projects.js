@@ -1,3 +1,5 @@
+import Megdooth from "../assets/maithri_project.png";
+
 export const projects = [
 
 {
@@ -38,7 +40,7 @@ tech:["React.js","Mantine UI","REST APIs","Zango APIs"]
 
 {
 title:"Meghdooth Kiosk Dashboard (Water from Air)",
-image:"https://ap-southeast-2.graphassets.com/AUM7yoUyNShKJ8D0dyjbWz/output=format:webp/lpL2fFujT5K2Hh6N1N2Q",
+image:Megdooth,
 desc:"A real-time IoT monitoring dashboard for tracking environmental data and water generation metrics in public kiosk systems.",
 details:[
 "Developed a real-time IoT dashboard to monitor water generation from atmospheric humidity.",
